@@ -13,7 +13,7 @@ export default function Home() {
   const classcheck = "btn-primary";
   return (
     <div className={styles.container}>
-      <SignIn/>
+      <HomePage/>
 
       </div>
   );
