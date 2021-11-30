@@ -7,7 +7,7 @@ export default function SignIn() {
     <div className={styles.body}>
       <nav className="navbar navbar-dark bg-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="">
             User Sign UP
           </a>
         </div>
@@ -40,6 +40,7 @@ export default function SignIn() {
               <br />
               <button className={`${styles.btn} + btn-dark`}>Submit</button>
               <Link href='/SignIn'><button className={`${styles.btn} + btn-dark`}>Sign in</button></Link>
+              <Link href='/Home'><button className={`${styles.btn} + btn-dark`}>Back To Home</button></Link>
             </form>
           </div>
         </div>

@@ -40,6 +40,8 @@ export default function SignIn() {
               <br />
               <button className={`${styles.btn} + btn-dark`}>Submit</button>
               <Link href='/SignUp'><button className={`${styles.btn} + btn-dark`}>Sign up</button></Link>
+              <Link href='/Home'><button className={`${styles.btn} + btn-dark`}>Back To Home</button></Link>
+
             </form>
           </div>
         </div>
