@@ -38,8 +38,8 @@ export default function SignIn() {
                 className={styles.inp}
               />
               <br />
-              <button className={`${styles.btn} + btn-primary`}>Submit</button>
-              <Link href='/SignUp'><button className={`${styles.btn} + btn-primary`}>Sign up</button></Link>
+              <button className={`${styles.btn} + btn-dark`}>Submit</button>
+              <Link href='/SignUp'><button className={`${styles.btn} + btn-dark`}>Sign up</button></Link>
             </form>
           </div>
         </div>
