@@ -31,20 +31,19 @@ export default function About() {
               width="600"
               height="450"
               style={{border:0}}
-              allowfullscreen=""
               loading="lazy"
             ></iframe>
           </div>
           <div class="col">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
+            industry. Lorem Ipsum has been the industrys standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book. It has survived not
             only five centuries, but also the leap into electronic typesetting,
             remaining essentially unchanged. It was popularised in the 1960s
             with the release of Letraset sheets containing Lorem Ipsum passages,
             and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum
+            PageMaker including versions of Lorem 
           </div>
         </div>
       </div>
@@ -55,14 +54,14 @@ export default function About() {
         <div className="row">
         <div class="col d-flex justify-content-around">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
+            industry. Lorem Ipsum has been the industrys standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book. It has survived not
             only five centuries, but also the leap into electronic typesetting,
             remaining essentially unchanged. It was popularised in the 1960s
             with the release of Letraset sheets containing Lorem Ipsum passages,
             and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum
+            PageMaker including versions of Lorem 
           </div>
       
           <div className="col d-flex justify-content-around">
@@ -72,7 +71,6 @@ export default function About() {
               width="600"
               height="450"
               style={{border:0}}
-              allowfullscreen=""
               loading="lazy"
             ></iframe>
           </div>
@@ -91,20 +89,19 @@ export default function About() {
               width="600"
               height="450"
               style={{border:0}}
-              allowfullscreen=""
               loading="lazy"
             ></iframe>
           </div>
           <div class="col d-flex justify-content-around">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
+            industry. Lorem Ipsum has been the industrys standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book. It has survived not
             only five centuries, but also the leap into electronic typesetting,
             remaining essentially unchanged. It was popularised in the 1960s
             with the release of Letraset sheets containing Lorem Ipsum passages,
             and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum
+            PageMaker including versions of Lorem 
           </div>
         </div>
       </div>
