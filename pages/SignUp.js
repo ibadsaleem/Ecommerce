@@ -12,7 +12,7 @@ export default function SignIn() {
           </a>
         </div>
       </nav>
-      <div className="container" style={{ marginTop: "10%" }}>
+      <div className="container" style={{ marginTop: "7%" }}>
         <div className="row">
           <div className="col-lg d-flex justify-content-center">
             <Image
@@ -27,19 +27,41 @@ export default function SignIn() {
           <div className="col d-flex justify-content-center">
             <form>
               <input
+                type="text"
+                placeholder="Enter First Name"
+                className={styles.inp}
+              />
+              <input
+                type="text"
+                placeholder="Enter Last Name"
+                className={styles.inp}
+              />
+              <br/>
+              <input
                 type="email"
                 placeholder="Enter Email Address"
                 className={styles.inp}
               />
-              <br />
               <input
                 type="password"
                 placeholder="Enter Password"
                 className={styles.inp}
               />
+              <br/>
+              <input
+                type="text"
+                placeholder="Enter Address"
+                className={styles.inp}
+              />
               <br />
-              <button className={`${styles.btn} + btn-dark`}>Submit</button>
-              <Link href='/SignIn'><button className={`${styles.btn} + btn-dark`}>Sign in</button></Link>
+              <input
+                type="number"
+                placeholder="Enter Phone No"
+                className={styles.inp}
+              />
+              <br />
+              <button className={`${styles.btn} + btn-dark`}>Sign Up</button>
+              <Link href='/SignIn'><button className={`${styles.btn} + btn-dark`}>Have a Account? Sign In</button></Link>
               <Link href='/Home'><button className={`${styles.btn} + btn-dark`}>Back To Home</button></Link>
             </form>
           </div>

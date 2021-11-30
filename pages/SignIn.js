@@ -12,7 +12,7 @@ export default function SignIn() {
           </a>
         </div>
       </nav>
-      <div className="container" style={{ marginTop: "10%" }}>
+      <div className="container" style={{ marginTop: "7%" }}>
         <div className="row">
           <div className="col-lg d-flex justify-content-center">
             <Image
@@ -38,8 +38,8 @@ export default function SignIn() {
                 className={styles.inp}
               />
               <br />
-              <button className={`${styles.btn} + btn-dark`}>Submit</button>
-              <Link href='/SignUp'><button className={`${styles.btn} + btn-dark`}>Sign up</button></Link>
+              <button className={`${styles.btn} + btn-dark`}>Sign In</button>
+              <Link href='/SignUp'><button className={`${styles.btn} + btn-dark`}>Dont Have an Account? Sign up</button></Link>
               <Link href='/Home'><button className={`${styles.btn} + btn-dark`}>Back To Home</button></Link>
 
             </form>
