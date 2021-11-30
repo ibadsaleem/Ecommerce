@@ -38,6 +38,7 @@ const SocialButton = ({
       href={href}
       display={'inline-flex'}
       alignItems={'center'}
+      target={'_blank'}
       justifyContent={'center'}
       transition={'background 0.3s ease'}
       _hover={{
@@ -97,13 +98,13 @@ export default function LargeWithAppLinksAndSocial() {
           align={{ md: 'center' }}>
           <Text>© 2021 All rights reserved</Text>
           <Stack direction={'row'} spacing={6}>
-            <SocialButton label={'Twitter'} href={'#'}>
+            <SocialButton label={'Twitter'} href={'https://www.twitter.com'}  >
               <FaTwitter />
             </SocialButton>
-            <SocialButton label={'YouTube'} href={'#'}>
+            <SocialButton label={'YouTube'} href={'https://www.Youtube.com'}>
               <FaYoutube />
             </SocialButton>
-            <SocialButton label={'Instagram'} href={'#'}>
+            <SocialButton label={'Instagram'} href={'https://www.instagram.com'}>
               <FaInstagram />
             </SocialButton>
           </Stack>
