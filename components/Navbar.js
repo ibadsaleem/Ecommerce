@@ -22,7 +22,13 @@ export default function navbar() {
                 <Link className="nav-link" href="/Contact">Contact</Link>
               </li>
               <li className={`${styles.navit} + nav-item`}>
-              <Link className="nav-link" href="/Products#">Products</Link>
+              <Link className="nav-link" href="/Products">Products</Link>
+              </li>
+              <li className={`${styles.navit} + nav-item`}>
+              <Link className="nav-link" href="/SignIn">Sign In</Link>
+              </li>
+              <li className={`${styles.navit} + nav-item`}>
+              <Link className="nav-link" href="/SignUp">Sign Up</Link>
               </li>
             </ul>
           </div>
