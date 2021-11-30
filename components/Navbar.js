@@ -1,6 +1,7 @@
-import React from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import styles from './componentStyle/Navbar.module.css';
 export default function navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top " style={{opacity:0.97,boxShadow: '1.3px 1.2px 1.1px 1.5px'}}>
@@ -11,17 +12,17 @@ export default function navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
-              <li className="nav-item">
-                <Link className="nav-link" href="/Home">Home</Link>
+              <li className={`${styles.navit} + nav-item`} >
+                <Link className="nav-link" href="/Home" >Home</Link>
               </li>
-              <li className="nav-item">
+              <li className={`${styles.navit} + nav-item`}>
               <Link className="nav-link" href="/About">About</Link>
               </li>
-              <li className="nav-item">
+              <li className={`${styles.navit} + nav-item`}>
                 <Link className="nav-link" href="/Contact">Contact</Link>
               </li>
-              <li className="nav-item">
-              <Link className="nav-link" href="#">Products</Link>
+              <li className={`${styles.navit} + nav-item`}>
+              <Link className="nav-link" href="/Products#">Products</Link>
               </li>
             </ul>
           </div>
