@@ -5,9 +5,9 @@ import styles from "../styles/SignIn.module.css";
 export default function SignIn() {
   return (
     <div className={styles.body}>
-      <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+      <nav className="navbar navbar-dark bg-dark">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#">
             User Sign UP
           </a>
         </div>
