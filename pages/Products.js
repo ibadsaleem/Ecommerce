@@ -2,15 +2,15 @@ import styles from "../styles/Home.module.css";
 import HeadComp from "../components/Head";
 import Navbar from "../components/Navbar";
 import Carousel from "../components/Carousel";
-import Image from "next/image";
 import Card from "../components/Cards";
-import Categories from "../components/Categories";
-import HomePage from "../pages/Home";
 import "../styles/Home.module.css";
 import Footer from "../components/Footer";
+
 export default function Contact() {
   return (
     <div className={styles.container}>
+      <HeadComp title="Products-Ecommerce Site" />
+
       <Navbar />
       <br />
       <br />

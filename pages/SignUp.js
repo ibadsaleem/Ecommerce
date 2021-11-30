@@ -1,10 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import HeadComp from "../components/Head";
+
 import styles from "../styles/SignIn.module.css";
 export default function SignIn() {
   return (
     <div className={styles.body}>
+            <HeadComp title='Sign Up-Ecommerce Site'/>
+
       <nav className="navbar navbar-dark bg-dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="">
