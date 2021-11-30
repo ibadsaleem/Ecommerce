@@ -27,8 +27,8 @@ export default function Contact() {
       </h1>
       <hr />
       <br />
-      <div class="container">
-        <div class="row  d-flex justify-content-around">
+      <div className="container">
+        <div className="row  d-flex justify-content-around">
           <Card />
           <Card />
           <Card />
@@ -36,7 +36,7 @@ export default function Contact() {
           <Card />
           <Card />
         </div>
-        <div class="row d-flex justify-content-around">
+        <div className="row d-flex justify-content-around">
           <Card />
           <Card />
           <Card />
@@ -44,7 +44,7 @@ export default function Contact() {
           <Card />
           <Card />
         </div>
-        <div class="row d-flex justify-content-around">
+        <div className="row d-flex justify-content-around">
           <Card />
           <Card />
           <Card />
@@ -52,7 +52,7 @@ export default function Contact() {
           <Card />
           <Card />
         </div>
-        <div class="row d-flex justify-content-around">
+        <div className="row d-flex justify-content-around">
           <Card />
           <Card />
           <Card />
@@ -60,7 +60,7 @@ export default function Contact() {
           <Card />
           <Card />
         </div>
-        <div class="row d-flex justify-content-around">
+        <div className="row d-flex justify-content-around">
           <Card />
           <Card />
           <Card />
