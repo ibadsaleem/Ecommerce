@@ -34,7 +34,7 @@ export default function About() {
               loading="lazy"
             ></iframe>
           </div>
-          <div class="col">
+          <div className="col d-flex justify-content-around">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industrys standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
@@ -52,7 +52,7 @@ export default function About() {
           <br/>
       <div className="container">
         <div className="row">
-        <div class="col d-flex justify-content-around">
+        <div className="col d-flex justify-content-around">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industrys standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
@@ -92,7 +92,7 @@ export default function About() {
               loading="lazy"
             ></iframe>
           </div>
-          <div class="col d-flex justify-content-around">
+          <div className="col d-flex justify-content-around">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industrys standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
