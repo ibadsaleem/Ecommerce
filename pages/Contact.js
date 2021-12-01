@@ -16,7 +16,7 @@ export default function Contact() {
       <br />
 
       <hr />
-      <h1 style={{ color: "black", textAlign: "center", fontSize: 35 }} className="hello">
+      <h1 style={{ color: "black", textAlign: "center", fontSize: 35 }}>
         Contact US
       </h1>
       <hr />
@@ -34,7 +34,7 @@ export default function Contact() {
               loading="lazy"
             ></iframe>
           </div>
-          <div className="col d-flex justify-content-around">
+          <div className="col d-flex justify-content-around hello">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industrys standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type

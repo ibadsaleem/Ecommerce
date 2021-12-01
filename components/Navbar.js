@@ -19,7 +19,7 @@ export default function navbar() {
               <Link className="nav-link" href="/About">About</Link>
               </li>
               <li className={`${styles.navit} + nav-item`}>
-                <Link className="nav-link" href="/Contact/#hello">Contact</Link>
+                <Link className="nav-link" href="/Contact">Contact</Link>
               </li>
               <li className={`${styles.navit} + nav-item`}>
               <Link className="nav-link" href="/Products">Products</Link>
