@@ -12,12 +12,7 @@ export default function Contact() {
       <HeadComp title="Products-Ecommerce Site" />
 
       <Navbar />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+
       <Carousel />
       <br />
 

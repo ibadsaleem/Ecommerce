@@ -10,9 +10,8 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div className={styles.container}>
-      <HeadComp title='Home-Ecommerce Site'/>
+      <HeadComp title="Home-Ecommerce Site" />
       <Navbar />
-      <br /><br /><br /><br /><br /><br />
       <Carousel />
       <br />
 
@@ -23,11 +22,16 @@ export default function Home() {
       <hr />
       <br />
       <Categories />
-    <br/>
+      <br />
       <hr />
       <h1 style={{ color: "black", textAlign: "center", fontSize: 35 }}>
-        Featured Products <sup><span className="badge bg-danger" style={{fontSize:14}}>Sale <span style={{color:'yellow'}}>🔥</span> </span></sup>
-        <br/>
+        Featured Products{" "}
+        <sup>
+          <span className="badge bg-danger" style={{ fontSize: 14 }}>
+            Sale <span style={{ color: "yellow" }}>🔥</span>{" "}
+          </span>
+        </sup>
+        <br />
       </h1>
       <hr />
       <div className="container ">

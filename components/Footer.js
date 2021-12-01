@@ -1,11 +1,11 @@
 import { ReactNode } from 'react';
+import Link from 'next/link';
 import {
   Box,
   Container,
   Stack,
   SimpleGrid,
   Text,
-  Link,
   VisuallyHidden,
   chakra,
   useColorModeValue,
@@ -59,10 +59,10 @@ export default function LargeWithAppLinksAndSocial() {
         <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={8}>
           <Stack align={'flex-start'}>
             <ListHeader>Company</ListHeader>
-            <Link href={'#'}>About Us</Link>
-            <Link href={'#'}>Blog</Link>
-            <Link href={'#'}>Careers</Link>
-            <Link href={'#'}>Contact Us</Link>
+            <Link href={'/Home'}>Home</Link>
+            <Link href={'/About'}>About</Link>
+            <Link href={'/Contact'}>Contact</Link>
+            <Link href={'/Products'}>Product</Link>
           </Stack>
 
           <Stack align={'flex-start'}>

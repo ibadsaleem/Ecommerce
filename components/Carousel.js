@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 export default function Carousel() {
   return (
-    <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel" style={{marginTop:120}}>
     <div className="carousel-inner">
       <div className="carousel-item active" data-bs-interval={10000}>
         <img src='/Images/image.jpg' className="d-block w-100" alt="..."/>
