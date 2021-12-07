@@ -63,6 +63,7 @@ export default function LargeWithAppLinksAndSocial() {
             <Link href={'/About'}>About</Link>
             <Link href={'/Contact'}>Contact</Link>
             <Link href={'/Products'}>Product</Link>
+            <Link href={'/CartPage'}>My Cart</Link>
           </Stack>
 
           <Stack align={'flex-start'}>
