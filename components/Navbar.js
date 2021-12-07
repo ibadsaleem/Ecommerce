@@ -30,6 +30,9 @@ export default function navbar() {
               <li className={`${styles.navit} + nav-item`}>
               <Link className="nav-link" href="/SignUp">Sign Up</Link>
               </li>
+              <li className={`${styles.navit} + nav-item`}>
+              <Link className="nav-link" href="/CartPage">My Cart</Link>
+              </li>
             </ul>
           </div>
         </div>
