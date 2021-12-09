@@ -1,0 +1,30 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: "Roboto Mono", monospace;
+}
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+  background-color: white;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #075ead;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Varela Round";
+  font-weight: 400;
+}
+button:focus {
+  outline: 0;
+}
