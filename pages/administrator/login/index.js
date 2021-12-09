@@ -3,7 +3,7 @@ import { useState , useEffect } from 'react';
 import {Flex , Heading} from '@chakra-ui/react'
 import { useRouter  } from 'next/router'
 import styles from '../../../styles/login.module.scss';
-import Logo from '../../../public/images/adminpanel.png';
+import Logo from '../../../public/Images/adminpanel.png';
 import { useCookies } from 'react-cookie';
 import cookieCutter from 'cookie-cutter';
 export default function Login(){
