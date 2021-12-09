@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import HeadComp from "../components/Head";
+import HeadComp from "../Components/Head";
 
 import Link from "next/link";
 import styles from "../styles/SignIn.module.css";

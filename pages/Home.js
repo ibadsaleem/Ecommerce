@@ -1,11 +1,11 @@
 import styles from "../styles/Home.module.css";
-import HeadComp from "../components/Head";
-import Navbar from "../components/Navbar";
-import Carousel from "../components/Carousel";
-import Cards from "../components/Cards";
-import Categories from "../components/Categories";
+import HeadComp from "../Components/Head";
+import Navbar from "../Components/Navbar";
+import Carousel from "../Components/Carousel";
+import Cards from "../Components/Cards";
+import Categories from "../Components/Categories";
 import "../styles/Home.module.css";
-import Footer from "../components/Footer";
+import Footer from "../Components/Footer";
 
 export default function Home() {
   return (

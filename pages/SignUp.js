@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import HeadComp from "../components/Head";
+import HeadComp from "../Components/Head";
 
 import styles from "../styles/SignIn.module.css";
 export default function SignIn() {

@@ -1,12 +1,12 @@
 import styles from "../styles/Home.module.css";
-import HeadComp from "../components/Head";
-import Navbar from "../components/Navbar";
+import HeadComp from "../Components/Head";
+import Navbar from "../Components/Navbar";
 import Link from 'next/link'
-import Carousel from "../components/Carousel";
+import Carousel from "../Components/Carousel";
 import "../styles/Home.module.css";
-import Footer from "../components/Footer";
-import Table from "../components/Table";
-import Modal from '../components/Modal'
+import Footer from "../Components/Footer";
+import Table from "../Components/Table";
+import Modal from '../Components/Modal'
 import { useState } from "react";
 export default function Contact() {
    const [toggle,setToggle]=useState(0);

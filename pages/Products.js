@@ -1,10 +1,10 @@
 import styles from "../styles/Home.module.css";
-import HeadComp from "../components/Head";
-import Navbar from "../components/Navbar";
-import Carousel from "../components/Carousel";
-import Card from "../components/Cards";
+import HeadComp from "../Components/Head";
+import Navbar from "../Components/Navbar";
+import Carousel from "../Components/Carousel";
+import Card from "../Components/Cards";
 import "../styles/Home.module.css";
-import Footer from "../components/Footer";
+import Footer from "../Components/Footer";
 
 export default function Contact() {
   return (
