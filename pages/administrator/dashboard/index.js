@@ -1,5 +1,4 @@
 import { Flex } from '@chakra-ui/react';
-import  Image from 'next/Image';
 import Link from 'next/Link';
 import { useRouter  } from 'next/router'
 import  '../../../styles/Dashboard.module.scss';
