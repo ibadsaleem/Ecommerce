@@ -2,7 +2,7 @@ import { Flex } from '@chakra-ui/react';
 import  Image from 'next/Image';
 import Link from 'next/Link';
 import { useRouter  } from 'next/router'
-import  '../../../Styles/Dashboard.module.scss';
+import  '../../../styles/Dashboard.module.scss';
 import { useLayoutEffect,useState , useEffect } from 'react';
 import { IconButton } from "@chakra-ui/react"
 import {HiMenuAlt2 , HiMenuAlt3} from 'react-icons/hi';

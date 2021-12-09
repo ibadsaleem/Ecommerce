@@ -2,7 +2,7 @@ import Image  from 'next/image';
 import { useState , useEffect } from 'react';
 import {Flex , Heading} from '@chakra-ui/react'
 import { useRouter  } from 'next/router'
-import styles from '../../../Styles/login.module.scss';
+import styles from '../../../styles/login.module.scss';
 import Logo from '../../../public/images/adminpanel.png';
 import { useCookies } from 'react-cookie';
 import cookieCutter from 'cookie-cutter';
