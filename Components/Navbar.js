@@ -21,9 +21,7 @@ export default function navbar() {
               <li className={`${styles.navit} + nav-item`}>
                 <Link className="nav-link" href="/Contact">Contact</Link>
               </li>
-              <li className={`${styles.navit} + nav-item`}>
-              <Link className="nav-link" href="/Products">Products</Link>
-              </li>
+             
               <li className={`${styles.navit} + nav-item`}>
               <Link className="nav-link" href="/SignIn">Sign In</Link>
               </li>

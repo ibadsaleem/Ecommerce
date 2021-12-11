@@ -1,15 +1,14 @@
-import styles from "../styles/Home.module.css";
-import HeadComp from "../Components/Head";
-import Navbar from "../Components/Navbar";
-import Carousel from "../Components/Carousel";
-import Card from "../Components/Cards";
-import "../styles/Home.module.css";
-import Footer from "../Components/Footer";
+import styles from "../../styles/Home.module.css";
+import HeadComp from "../../Components/Head";
+import Navbar from "../../Components/Navbar";
+import Carousel from "../../Components/Carousel";
+import Card from "../../Components/Cards";
+import Footer from "../../Components/Footer";
 
 export default function Contact() {
   return (
     <div className={styles.container}>
-      <HeadComp title="Products-Ecommerce Site" />
+      <HeadComp title="Accessories-Ecommerce Site" />
 
       <Navbar />
 
@@ -18,7 +17,7 @@ export default function Contact() {
 
       <hr />
       <h1 style={{ color: "black", textAlign: "center", fontSize: 35 }}>
-        Our Products
+        Accessories Items
       </h1>
       <hr />
       <br />
